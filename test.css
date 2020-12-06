@@ -1,0 +1,39 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Arial, MsJhengHeiBold, 微軟正黑體, "Microsoft JhengHei", Roboto, PingFangTC, sans-serif;
+}
+
+body {
+	background: #f1f1f1;
+}
+
+.wrap {
+	width: 100%;
+}
+
+.flex {
+	display: flex;
+	width: 100%;
+}
+
+.flex-item {
+	background: #fcc;
+	width: 100%;
+}
+
+.flex-item:nth-child(1) {
+	background: #fff;
+	width: 50%;
+}
+
+.flex-item:nth-child(2) {
+	background: #f00;
+	flex-grow: 0.3;
+	width: 30%;
+}
+
+.flex-item:nth-child(3) {
+	background: #ff0;
+	width: 20%;
+}

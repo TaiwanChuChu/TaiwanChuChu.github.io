@@ -1,0 +1,83 @@
+@import './normalize.css';
+
+*{
+	font-family: Arial, MsJhengHeiBold, 微軟正黑體, "Microsoft JhengHei", Roboto, PingFangTC, sans-serif;
+}
+
+body {
+	background: #f1f1f1;
+}
+
+.container {
+	margin: .2rem auto 0 auto;
+	max-width: 1440px;
+	width: 100%;
+	padding: .3rem;
+	border-radius: 40px;
+	overflow: hidden;
+	box-sizing: border-box;
+	background: red;
+}
+
+.banner img {
+	width: 100%;
+}
+
+.content p {
+	text-indent: 32px;
+}
+
+.self-info {
+	background: #fcc;
+	margin-top: .4rem;
+	width: 100%;
+}
+
+.self-info .img-wrap img {
+}
+
+.self-info .content {
+	margin: 0 10px;
+}
+
+.self-info .content ul {
+	list-style-type: square;
+	padding-left: 1rem;
+}
+
+.self-introduce {
+	background: #f9b;
+	margin-top: .4rem;
+	width: 100%;
+}
+
+.self-introduce .content {
+	padding: 0 .4rem;
+}
+
+.work-description {
+	background: #f55;
+	margin-top: .4rem;
+	width: 100%;
+}
+
+.work-description .content {
+	padding: .4rem;
+}
+
+@media screen and (min-width: 768px) {
+	.intro-work-group {
+		display: flex;
+		width: 100%;
+	}
+
+	.self-introduce {
+		margin-right: .2rem;
+	}
+
+	.work-description {
+		margin-left: .2rem;
+	}
+
+	
+}
