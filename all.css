@@ -32,12 +32,19 @@ body {
 	margin-top: .4rem;
 	width: 100%;
 }
-
+.self-info .img-wrap {
+	text-align: center;
+	padding-top: 1rem;
+}
 .self-info .img-wrap img {
+	border-radius: 50%;
+	width: 120px;
+	height: 120px;
 }
 
 .self-info .content {
-	margin: 0 10px;
+	padding: 0 0 1rem 3rem;
+
 }
 
 .self-info .content ul {
@@ -77,6 +84,22 @@ body {
 
 	.work-description {
 		margin-left: .2rem;
+	}
+
+	.self-info {
+		display: flex;
+		align-items: center;
+		padding: 1rem;
+	}
+
+	.self-info .img-wrap {
+		padding-top: 0;
+	}
+
+	.self-info .content {
+		margin-left: 1rem;
+		border-left: 3px solid #dcdcdc;
+		padding-left: 1.5rem;
 	}
 
 	
